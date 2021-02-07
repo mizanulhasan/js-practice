@@ -1,0 +1,23 @@
+var nameAnne ="Marufa";
+console.log(nameAnne);
+console.log(typeof nameAnne);
+var nameAnne="Mobashira";
+console.log(nameAnne);
+console.log(typeof (nameAnne));
+var num = 77;
+console.log(num);
+console.log(typeof num);
+var num =900.98;
+console.log(num);
+console.log(typeof num);
+var isHot= false;
+console.log(isHot);
+console.log(typeof isHot);
+var isRich = true;
+console.log(isRich);
+console.log(typeof isRich);
+
+var pricel = 'Justin';
+var name = 'Beiber';
+var result = pricel +' '+name;
+console.log(result);
