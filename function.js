@@ -33,15 +33,20 @@ var marks = [89, 97, 89, 68, 94, 86, 79];
 // console.log(result2);
 
 
-function largestNumber(numbers){
-    var larger = numbers[0];
-    for(var i = 0; i < numbers.length; i++){
-        var element = numbers[i];
-        if(element > larger){
-            larger = element;
-        }
-    }
-    return larger;
-}
-var output = largestNumber(marks);
-console.log('output: ', output);
+// function largestNumber(numbers){
+//     var larger = numbers[0];
+//     for(var i = 0; i < numbers.length; i++){
+//         var element = numbers[i];
+//         if(element > larger){
+//             larger = element;
+//         }
+//     }
+//     return larger;
+// }
+// var output = largestNumber(marks);
+// console.log('output: ', output);
+
+var value=50;  
+function a(){  
+alert(window.value);//accessing global variable   
+}  
